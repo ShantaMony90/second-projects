@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <title>Tabs and Pills</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-buttom">
+
+            <a href="#" class="navbar-brand">
+                <img src="logo.webp" alt="logo">
+            </a>
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tutorial</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <br>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item"><a href="#home" class="nav-link active" data-bs-toggle="pill">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link" data-bs-toggle="pill">About</a></li>
+            <li class="nav-item"><a href="#service" class="nav-link" data-bs-toggle="pill">Service</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane active">
+                <h3 class="text-center">Welcome to Home Page!</h3>
+                <img src="/image/grid_image1.png" alt="image1" class="img-fluid img-thumbnail col-5">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam totam temporibus ducimus ullam ea saepe quis? Consequuntur quam maxime aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste voluptate quibusdam maiores iure soluta officia possimus fugit modi libero totam. Officia maxime amet asperiores rerum nobis enim culpa minus neque!</p>
+            </div>
+            <div id="about" class="tab-pane">
+                <h3 class="text-center">Welcome to About Page!</h3>
+                <img src="/image/grid_image2.png" alt="image2" class="img-fluid img-thumbnail col-5">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam totam temporibus ducimus ullam ea saepe quis? Consequuntur quam maxime aut. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum iusto illo voluptate porro expedita voluptates ipsum ducimus a est repellat. Sunt repudiandae accusamus deserunt natus, minus corporis dignissimos vero! Hic.</p>
+            </div>
+            <div id="service" class="tab-pane">
+                <h3 class="text-center">Welcome to Service Page!</h3>
+                <img src="/image/grid_image3.png" alt="image3" class="img-fluid img-thumbnail col-5">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam totam temporibus ducimus ullam ea saepe quis? Consequuntur quam maxime aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quas nesciunt. Dolorem vero eos reprehenderit explicabo reiciendis? Qui officia tenetur ducimus nisi eos facilis animi fugiat numquam, voluptatum repellat rerum!</p>
+            </div>
+        </div>
+        </main>
+    </div>
+</body>
+</html>
